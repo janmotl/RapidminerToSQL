@@ -11,8 +11,8 @@ import java.util.stream.IntStream;
         String separator = " = "; // Separator for nominal features
         String quoteEntity = "\"";
         String quoteString = "'";
-        String indentationWeighs = "\t\t\t\t";
-        String indentationFormula = "\t\t\t";
+        String indentationWeighs = "\t";
+        String indentationFormula = "\t\t";
 
         // Data
         GeneralizedLinearModel model = input[0];
